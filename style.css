@@ -1,0 +1,913 @@
+body {
+    background-color: #121212;
+    height: 100%;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+body::selection {
+    background: transparent;
+}
+
+
+
+.sp {
+    font-family: 'Major Mono Display', monospace;
+    color: #D8BFD8;
+    ;
+}
+
+
+
+.topnav {
+
+
+    display: flex;
+    padding-left: 30px;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-top: 31px;
+    position: fixed;
+    z-index: 5;
+    position: fixed;
+    top: 5%;
+    left: 2%;
+}
+
+.topnav a {
+    text-decoration: none;
+    font-size: 16px;
+
+
+    padding-left: 0px;
+    color: #FDC7D7;
+    font-weight: 300;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.stylecod {
+    font-size: 7.7vw;
+
+    letter-spacing: 2px;
+    color: white;
+    font-family: 'Lato', sans-serif
+}
+
+.copyr {
+    font-size: 2rem;
+    color: white;
+    padding-right: 30px;
+}
+
+.pf {
+    color: #FDC7D7;
+    font-size: 37px;
+    text-align: center;
+    font-family: 'Libre Barcode 39 Text', cursive;
+    position: absolute;
+    bottom: 4%;
+    right: 5%;
+}
+
+.aboutme {
+    padding-top: 45px;
+}
+
+.me {
+    font-size: 9.7vw;
+    color: #FDC7D7;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    padding-top: 10px;
+
+
+
+}
+
+.mename {
+    font-size: 8.5vw;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    padding-top: 45px;
+    width: 80%;
+
+
+
+}
+
+.mename1 {
+    font-size: 5vw;
+    color: white;
+    letter-spacing: 2px;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 40px;
+    width: 80%;
+
+}
+
+.cpad {
+    padding-top: 0px;
+}
+
+.cse {
+    padding-top: 0px;
+}
+
+.d {
+
+
+    color: #FDC7D7;
+}
+
+.skills1 {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+
+
+.skillcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skillbtndiv {
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    margin-top: 25px;
+}
+
+.skillbtn {
+    text-decoration: none;
+    color: #FDC7D7;
+    font-family: 'Poiret One', cursive;
+    font-weight: 900;
+    font-size: 1em;
+}
+
+.skillbtn:hover {
+    text-decoration: none;
+    color: #FDC7D7;
+    font-weight: 900;
+    font-family: 'Poiret One', cursive;
+    font-size: 1em;
+}
+
+.certificates {
+    display: grid;
+
+}
+
+.intro {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro2 {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width:320px) {
+    .stylecod {
+        font-size: 10.4vw;
+        margin-bottom: -4vw;
+    }
+}
+
+
+
+@media (min-width:961px) {
+    .stylecod {
+        font-size: 9.8vw;
+        margin-bottom: -6.5vw;
+        padding: 0% 5%;
+        letter-spacing: 2px;
+    }
+}
+
+
+
+
+.certachiv {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.achiv {
+    width: 80%;
+}
+
+.achvpara {
+
+    width: 100%;
+    color: #FDC7D7;
+    font-family: Ubuntu, sans-serif;
+    margin-bottom: 1px;
+}
+
+@media (min-width:280px) {
+    .achvpara {
+        font-size: 17px;
+    }
+}
+
+@media (min-width:768px) {
+    .achvpara {
+        font-size: 5vw;
+    }
+}
+
+
+.achhead {
+    font-size: 9.7vw;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.certi1 {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.certi2 {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 25px;
+}
+
+
+.certib {
+    width: 80%;
+}
+
+.savior {
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
+
+@media (min-width:280px) {
+    .com img {
+        width: 100%;
+        height: 176px;
+    }
+
+    .certib2 {
+        justify-content: flex-start;
+    }
+
+    .certi1 {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .certi2 {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-width:768px) {
+    .savior {
+
+        justify-content: flex-end;
+
+    }
+
+    .com img {
+        width: 669px;
+        height: 335px;
+    }
+
+    .certib2 {
+        width: 669px;
+        justify-content: flex-start;
+    }
+
+    .certi1 {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .certi2 {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        margin-top: 25px;
+    }
+}
+
+@media (min-width:280px) {
+    .login-box {
+        width: 100%;
+    }
+}
+
+@media (min-width:768px) {
+    .login-box {
+        width: 50%;
+    }
+}
+
+
+.login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.login-box .user-box {
+    position: relative;
+}
+
+.login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 17px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.login-box .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.login-box .user-box input:focus~label,
+.login-box .user-box input:valid~label {
+    top: -20px;
+    left: 0;
+    color: #FDC7D7;
+    font-size: 12px;
+}
+
+.login-box form a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #FDC7D7;
+    font-size: 17px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px
+}
+
+.login-box a:hover {
+    background: #FDC7D7;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #FDC7D7,
+        0 0 25px #FDC7D7,
+        0 0 50px #FDC7D7,
+        0 0 100px #FDC7D7;
+}
+
+.login-box a span {
+    position: absolute;
+    display: block;
+}
+
+.login-box a span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #FDC7D7);
+    animation: btn-anim1 1s linear infinite;
+}
+
+@keyframes btn-anim1 {
+    0% {
+        left: -100%;
+    }
+
+    50%,
+    100% {
+        left: 100%;
+    }
+}
+
+.login-box a span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #FDC7D7);
+    animation: btn-anim2 1s linear infinite;
+    animation-delay: .25s
+}
+
+@keyframes btn-anim2 {
+    0% {
+        top: -100%;
+    }
+
+    50%,
+    100% {
+        top: 100%;
+    }
+}
+
+.login-box a span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #FDC7D7);
+    animation: btn-anim3 1s linear infinite;
+    animation-delay: .5s
+}
+
+@keyframes btn-anim3 {
+    0% {
+        right: -100%;
+    }
+
+    50%,
+    100% {
+        right: 100%;
+    }
+}
+
+.login-box a span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #FDC7D7);
+    animation: btn-anim4 1s linear infinite;
+    animation-delay: .75s
+}
+
+@keyframes btn-anim4 {
+    0% {
+        bottom: -100%;
+    }
+
+    50%,
+    100% {
+        bottom: 100%;
+    }
+}
+
+.talktome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftttm {
+    width: 80%;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.d-block {
+    background: #121212;
+}
+
+@media only screen and (max-width: 600px) {
+    .com img {
+        width: 332px;
+        height: 176px;
+    }
+
+    .down1 {
+        width: 332px;
+    }
+
+    .up2 {
+        width: 332px;
+    }
+}
+
+@media only screen and (width: 540px) {
+    .com img {
+        width: 459px;
+        height: 243px;
+    }
+
+    .down1 {
+        width: 459px;
+    }
+
+    .up2 {
+        width: 459px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .com img {
+        width: 653px;
+        height: 346px;
+    }
+
+    .down1 {
+        width: 653px;
+    }
+
+    .up2 {
+        width: 653px;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+    .com img {
+        width: 614px;
+        height: 307px;
+    }
+
+    .down1 {
+        width: 614px;
+    }
+
+    .up2 {
+        width: 614px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .com img {
+        width: 768px;
+        height: 384px;
+    }
+
+    .down1 {
+        width: 768px;
+    }
+
+    .up2 {
+        width: 768px;
+    }
+}
+
+@media only screen and (width: 912px) {
+    .com img {
+        width: 547px;
+        height: 274px;
+    }
+
+    .down1 {
+        width: 547px;
+    }
+
+    .up2 {
+        width: 547px;
+    }
+}
+
+.com {
+    flex-direction: column;
+}
+
+@media (min-width:768px) {
+
+
+    .cp {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .cp2 {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}
+
+.up {
+    text-decoration: none;
+    color: rgb(253, 199, 215);
+    font-family: "Poiret One", cursive;
+    font-weight: 900;
+    font-size: 1em;
+    width: 100%;
+}
+
+.up2 {
+    text-decoration: none;
+    color: rgb(253, 199, 215);
+    font-family: "Poiret One", cursive;
+    font-weight: 900;
+    font-size: 1em;
+}
+
+.down1 {
+    text-decoration: none;
+    color: rgb(253, 199, 215);
+    font-family: "Poiret One", cursive;
+    font-weight: 900;
+    font-size: 1em;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.down {
+    text-decoration: none;
+    color: rgb(253, 199, 215);
+    font-family: "Poiret One", cursive;
+    font-weight: 900;
+    font-size: 1em;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.sav2 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sav3 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.down1 {
+    margin-top: 1rem;
+}
+
+.down {
+    margin-top: 1rem;
+}
+
+@media(width:280px) {
+    .stylecod {
+        font-size: 10vw;
+    }
+}
+
+@media (min-width:280px) {
+    .leftttm {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .media {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .fa {
+        font-size: 10vmax;
+    }
+
+    .mediahead {
+        display: none;
+    }
+
+    .mediaicn {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 2rem;
+    }
+
+}
+
+@media (min-width:768px) {
+    .leftttm {
+        flex-direction: row;
+        justify-content: center;
+        height: 371px;
+        align-items: center;
+    }
+
+    .media {
+        height: 100%;
+        position: relative;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .mediahead {
+        display: flex;
+        box-sizing: border-box;
+        position: absolute;
+        top: 0%;
+        margin: 0 0 30px;
+        padding: 0;
+        color: #fff;
+        text-align: center;
+    }
+
+    .mediaicn {
+        width: 100%;
+        margin-top: 0;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    i{
+        font-size: 2.2vmax;
+    }
+}
+
+.footer1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer2 {
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+}
+
+@media (min-width:280px) {
+    .footer2 {
+        justify-content: center;
+        font-size: 12px;
+        letter-spacing: 1px;
+        color: #FDC7D7;
+        ;
+    }
+
+    .footer1 {
+        margin-top: 2rem;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width:768px) {
+    .footer2 {
+        justify-content: flex-start;
+        font-size: 12px;
+        letter-spacing: 1px;
+        color: #FDC7D7;
+        ;
+    }
+
+    .footer1 {
+        margin-top: 6rem;
+        margin-bottom: 20px;
+    }
+}
+
+.certimg {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media (min-width:280px) {
+    .img1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cr7 {
+        width: 100%;
+    }
+
+    .card-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .b {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .b p {
+        margin-top: 1rem;
+    }
+}
+
+@media (min-width:768px) {
+    .img1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .img2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .cr7 {
+        width: 70%;
+    }
+
+    .card-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .b {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .b p {
+        margin-top: 1rem;
+    }
+}
+.carouselc{
+    width: 80%;
+}
